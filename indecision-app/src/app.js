@@ -40,6 +40,11 @@ class Action extends React.Component {
 }
 
 class Options extends React.Component {
+  constructor(props) {
+    super(props); // if you don't call super with the props you will not have access to this.props
+    this.handleRemoveAll = his.handleRemoveAll.bind(this); //wherever you call this.handleRemoveAll the context is correct
+    
+  }
   handleRemoveAll() {
     alert('Handle Remove All');
   }
