@@ -6,12 +6,12 @@
 }
 
 //BEM naming convention .header__title but I am sticking with camelCase
-.headerTitle {
+.header-title {
   font-size: $lSize;
   margin: 0;
 }
 
-.headerSubtitle {
+.header-subtitle {
   color: $offPurple;
   font-size: $mSize;
   font-weight: 500;

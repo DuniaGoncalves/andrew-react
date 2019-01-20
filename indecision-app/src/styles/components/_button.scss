@@ -1,5 +1,5 @@
 // Big Button
-.bigButton {
+.big-button {
   background: $purple;
   border: none;
   border-bottom: .6rem solid darken($purple, 10%);
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.bigButton:disabled {
+.big-button:disabled {
   opacity: .5;
 }
 
@@ -25,7 +25,7 @@
   padding: $sSize;
 }
 
-.buttonLink {
+.button-link {
   background: none;
   border: none;
   color: $offPurple;
