@@ -1,0 +1,28 @@
+// Widget
+.widget {
+  background: $lightGray;
+  margin-bottom: $xlSize;
+}
+
+// Widget Message
+.widgetMessage {
+  border-bottom: 1px solid lighten($lightGray, 10%);
+  color: $offPurple;
+  margin: 0;
+  padding: $lSize;
+  text-align: center;
+}
+
+// Widget Header
+.widgetHeader {
+  background: $gray;
+  color: $offPurple;
+  display: flex;
+  justify-content: space-between;
+  padding: $mSize;
+}
+
+// Widget Header Title
+.widgetHeaderTitle {
+  margin: 0;
+}
