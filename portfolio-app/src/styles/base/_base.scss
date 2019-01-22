@@ -1,0 +1,21 @@
+//rem better for accessibility
+html {
+  font-size: 62.5%; // so pixels math is easy 1.6rem == 16px
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $mSize;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
